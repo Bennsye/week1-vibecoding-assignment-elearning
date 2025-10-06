@@ -1,0 +1,56 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Page title */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Container styles */
+.course-container,
+.course-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Course card styling */
+.course-card,
+.course-detail {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Hover effect on course cards */
+.course-card:hover {
+  border-color: #007bff;
+  cursor: pointer;
+  background-color: #eef6ff;
+  transition: 0.3s;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Hover effect on buttons */
+button:hover {
+  background-color: #0056b3;
+}
